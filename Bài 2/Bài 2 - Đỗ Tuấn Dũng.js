@@ -1,6 +1,7 @@
 //Bài 2:
+let triangle = "";
+
 function numberOneTriangle(length) {
-    let triangle = "";
     for (let c = 1; c <= length; c++) {
         for (let d = 1; d <= c; d++) {
             triangle += '*'
@@ -10,5 +11,4 @@ function numberOneTriangle(length) {
 }
 
 numberOneTriangle(8);
-numberOneTriangle(10);
-numberOneTriangle(3);
+console.log(triangle);
